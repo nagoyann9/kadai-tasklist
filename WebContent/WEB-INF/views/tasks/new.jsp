@@ -5,7 +5,7 @@
         <h2>Task creating page</h2>
 
         <form method="POST" action="${pageContext.request.contextPath}/create">
-            <c:import url="form.jsp" />
+            <c:import url="_form.jsp" />
         </form>
 
         <p><a href="${pageContext.request.contextPath}/index">Back</a></p>
