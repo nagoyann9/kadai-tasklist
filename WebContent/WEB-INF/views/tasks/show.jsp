@@ -31,7 +31,7 @@
                 </table>
 
                 <p><a href="${pageContext.request.contextPath}/index">Back</a></p>
-                <p><a href="${pageContext.request.contextPath}/edit?id=${message.id}">Edit this task</a></p>
+                <p><a href="${pageContext.request.contextPath}/edit?id=${task.id}">Edit this task</a></p>
             </c:when>
             <c:otherwise>
                 <h2>There is no data.</h2>

@@ -13,7 +13,7 @@
 <input type="text" name="title" value="${task.title}" />
 <br /><br />
 
-<label for="content">Task Discription</label><br />
+<label for="content">Task Description</label><br />
 <input type="text" name="content" value="${task.content}" />
 <br /><br />
 
